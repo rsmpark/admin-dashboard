@@ -1,6 +1,7 @@
-import { CssBaseline, ThemeProvider, createTheme } from "@mui/material";
-import { useSelector } from "react-redux";
 import { useMemo } from "react";
+import { useSelector } from "react-redux";
+import { createTheme, CssBaseline, ThemeProvider } from "@mui/material";
+
 import { themeSettings } from "./theme";
 
 function App() {
